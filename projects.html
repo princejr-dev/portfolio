@@ -17,7 +17,7 @@
 
 <!-- SEO ESSENTIALS -->
 <meta name="description" content="PJr — All my projects I've built." />
-<meta name="keywords" content="website, web developer, freelance, python, data analyst, data analytics, excel, web designer, sql" />
+<meta name="keywords" content="website, web developer, tailwindcss, tailwind, React Developer, freelance, web designer, css, javascript" />
 <meta name="author" content="Prince Jr" />
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://princejr-dev.github.io/portfolio/projects.html" />
@@ -49,20 +49,15 @@
   <!-- ===== PAGE HERO ===== -->
   <section class="page-hero">
     <div class="page-hero-inner">
-      <a href="index.html" class="back-btn">
+      <a onclick="window.history.back()" class="back-btn">
         <i class="fas fa-arrow-left"></i> Back to Portfolio
       </a>
       <div class="section-tag">03 — Projects</div>
+      
       <h1 class="page-hero-title">All Projects</h1>
-      <p class="page-hero-sub">A complete look at everything I've built — from web interfaces to data analyses.</p>
+      
+      <p class="page-hero-sub">A complete look at everything I've built.</p>
 
-      <!-- FILTER TABS -->
-      <div class="filter-tabs">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="web">Web</button>
-        <button class="filter-btn" data-filter="data">Data</button>
-        <button class="filter-btn" data-filter="python">Python</button>
-      </div>
     </div>
   </section>
 
@@ -71,31 +66,31 @@
     <div class="section-inner">
       <div class="all-projects-grid">
 
-        <div class="project-card" data-category="web">
+        <!-- PROJECT 4# -->
+        <div class="project-card">
           <div>
-            <img src="assets/smart_picture.png" class="project-img web">
+            <img src="assets/stack_picture.png" class="project-img web">
           </div>
-
+          
           <div class="project-body">
-
             <div class="project-tags">
               <span>HTML</span><span>CSS</span><span>JavaScript</span>
             </div>
-
-            <h3>SmartBay</h3>
-
-            <p>A responsive, mobile-first showcasing my front-end skills. Dark mode design with smooth animations and a bottom-sheet navigation.</p>
+            
+            <h3>BlogStack</h3>
+            
+            <p>A blog website with smooth animations for AI Analysis, strategies, tendances, and a bottom-sheet navigation — 
+              to get AI in 2026.</p>
             
             <div class="project-links">
               <a href="https://github.com/princejr-dev" class="link-btn"><i class="fab fa-github"></i> GitHub</a>
-              
               <a onclick="alert('Live demo coming soon!')" class="link-btn primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
             </div>
           </div>
         </div>
 
 
-        <!-- PROJECT #1
+        <!-- PROJECT #5
         <div class="project-card" data-category="web">
           <div class="project-img web">
             <i class="fas fa-globe"></i>
@@ -113,7 +108,7 @@
           </div>
         </div> -->
 
-        <!-- PROJECT #2
+        <!-- PROJECT #6
         <div class="project-card" data-category="data">
           <div class="project-img data">
             <i class="fas fa-chart-line"></i>
@@ -131,7 +126,7 @@
           </div>
         </div> -->
 
-        <!-- PROJECT #3
+        <!-- PROJECT #7
         <div class="project-card" data-category="python">
           <div class="project-img python">
             <i class="fab fa-python"></i>
@@ -149,7 +144,7 @@
           </div>
         </div> -->
 
-        <!-- PROJECT #4
+        <!-- PROJECT #8
         <div class="project-card">
           <div class="project-img python"><i class="fab fa-python"></i></div>
           
@@ -169,7 +164,7 @@
           </div> 
         </div> -->
 
-        <!-- PROJECT #5
+        <!-- PROJECT #9
         <div class="project-card" data-category="data">
           <div class="project-img data">
             <i class="fas fa-database"></i>
@@ -187,7 +182,7 @@
           </div>
         </div> -->
 
-        <!-- PROJECT #6
+        <!-- PROJECT #10
         <div class="project-card" data-category="python">
           <div class="project-img python">
             <i class="fas fa-brain"></i>
@@ -213,7 +208,6 @@
   <footer class="footer">
     <div class="footer-inner">
       <p class="footer-logo">Prince Jr</p>
-      <p class="footer-text">Built using HTML, CSS & JavaScript</p>
       <p class="footer-copy">&copy; 2026 Prince Jr — All rights reserved.</p>
     </div>
   </footer>

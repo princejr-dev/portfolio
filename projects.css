@@ -92,6 +92,7 @@ body {
   text-decoration: none;
   margin-bottom: 32px;
   transition: color 0.2s ease, gap 0.2s ease;
+  cursor: pointer;
 }
 
 .back-btn:hover {
@@ -112,38 +113,6 @@ body {
   max-width: 500px;
   line-height: 1.7;
   margin-bottom: 40px;
-}
-
-/* ===== FILTER TABS ===== */
-.filter-tabs {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.filter-btn {
-  padding: 10px 22px;
-  border-radius: 50px;
-  border: 1px solid var(--border);
-  background: transparent;
-  color: var(--muted);
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  font-weight: 700;
-  cursor: pointer;
-  transition: all 0.25s ease;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.filter-btn:hover {
-  border-color: var(--primary-color);
-  color: var(--primary-color);
-}
-
-.filter-btn.active {
-  background: var(--primary-color);
-  color: var(--secondary-color);
-  border-color: var(--primary-color);
 }
 
 /* ===== SECTIONS ===== */
@@ -331,10 +300,6 @@ body {
 
   /* Projects */
   .projects-grid { grid-template-columns: 1fr; }
-
-  /* Filter tabs */
-  .filter-tabs { gap: 8px; }
-  .filter-btn { padding: 8px 14px; font-size: 0.75rem; }
 
   /* Page hero */
   .page-hero { padding: 40px 20px; }
