@@ -3,7 +3,7 @@
 
   <!-- Main page -->
   <url>
-    <loc>https://princejr-dev.github.io/portfolio/</loc>
+    <loc>https://princejr.vercel.app/portfolio/</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- Projects page -->
   <url>
-    <loc>https://princejr-dev.github.io/portfolio/projects.html</loc>
+    <loc>https://princejr.vercel.app/portfolio/projects.html</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -19,7 +19,7 @@
 
   <!-- Cv page -->
   <url>
-    <loc>https://princejr-dev.github.io/portfolio/cv.html</loc>
+    <loc>https://princejr.vercel.app/portfolio/cv.html</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
