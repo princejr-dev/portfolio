@@ -162,44 +162,6 @@ const observer = new IntersectionObserver((entries) => {
 
 reveals.forEach(el => observer.observe(el));
 
-// ===== CONTACT FORM =====
-contactForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const btn = contactForm.querySelector('button[type="submit"]');
-  const original = btn.innerHTML;
-  const data = new FormData(contactForm);
-
-  btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-  btn.disabled = true;
-
-  fetch(contactForm.action, {
-    method: 'POST',
-    body: data,
-    headers: { 'Accept': 'application/json' }
-  })
-  .then(response => {
-    if (response.ok) {
-      btn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
-      btn.style.background = '#059669';
-      contactForm.reset();
-      setTimeout(() => {
-        btn.innerHTML = original;
-        btn.style.background = '';
-        btn.disabled = false;
-      }, 3000);
-    } else {
-      btn.innerHTML = '<i class="fas fa-times"></i> Error. Try again.';
-      btn.style.background = '#ef4444';
-      btn.disabled = false;
-    }
-  })
-  .catch(() => {
-    btn.innerHTML = '<i class="fas fa-times"></i> Error. Try again.';
-    btn.style.background = '#ef4444';
-    btn.disabled = false;
-  });
-});
-
 // ===== ACTIVE NAV LINK ON SCROLL =====
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.modal a');
