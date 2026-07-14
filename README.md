@@ -18,21 +18,6 @@ Design mobile-first, animations soignées et interactions fines : navigation bot
 
 ---
 
-## 📸 Aperçu
-<p align="center">
-  <img src="https://raw.githubusercontent.com/princejr-dev/portfolio/master/assets/pjr_picture.png" alt="Capture d'écran - landing" width="720" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/princejr-dev/portfolio/master/assets/x-card.png" alt="Capture d'écran - projet" width="460" />
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/princejr-dev/portfolio/master/assets/pointex-img.png" alt="Capture d'écran - pointex" width="460" />
-</p>
-
-> Si tu veux, je peux remplacer une des images par un GIF animé (ex. démo du menu mobile). Tu peux fournir un GIF dans `assets/` ou je peux en générer un court sur demande.
-
----
-
 ## 🔥 Projets phares
 - **SmartBay** — SaaS de gestion locative (React, Vite, Tailwind, Firebase)  
   Code : https://github.com/princejr-dev/smartbay · Démo : https://getsmartbay.vercel.app
@@ -77,12 +62,6 @@ git clone https://github.com/princejr-dev/portfolio.git
 ```
 2. Ouvre `index.html` dans ton navigateur — site statique, pas de build nécessaire.
 
-Optionnel, lancer un serveur local :
-```bash
-python -m http.server 3000
-# puis ouvrir http://localhost:3000
-```
-
 ---
 
 ## 📬 Contact
@@ -100,4 +79,4 @@ Ce projet est sous licence MIT — voir le fichier `LICENSE`.
 
 ---
 
-> "Turning ideas into interfaces & data into decisions." — Prince Jr
+> "Build to help people." — Prince Jr
