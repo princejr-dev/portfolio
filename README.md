@@ -45,15 +45,7 @@ portfolio/
 ├── cv.js                 # Aside toggle & custom cursor
 ├── projects.js           # Projects filter logic
 ├── sitemap.xml           # Indexation
-└── assets/
-    ├── favicon.ico           # Favicon
-    ├── favicon-16x16.png
-    ├── favicon-32x32.png
-    ├── apple-icon-*.png      # Apple touch icons
-    ├── android-icon-*.png    # Android icons
-    ├── ms-icon-144x144.png   # Icon
-    ├── photo.png             # Profile photo
-    └── cv.pdf                # Downloadable CV
+└── assets/               # Images
 ```
 
 ---
@@ -64,7 +56,7 @@ portfolio/
 |------|-------------|
 | `index.html` | Hero, About, Skills, Projects preview, Contact |
 | `cv.html` | View my CV |
-| `projects.html` | All projects with category filter (All / Web / Data / Python) |
+| `projects.html` | All projects with category filter |
 | `404.html` | Custom error page with navigation back to home |
 
 ---
@@ -83,15 +75,6 @@ git clone https://github.com/princejr-dev/portfolio.git
 ## 🔗 Live Demo
 
 👉 Live Demo — *Coming Soon*
-
----
-
-## 📬 Contact
-
-- 📧 Email: [princejr.dev@gmail.com](mailto:princejr.dev@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/prince-jr](https://www.linkedin.com/in/prince-jr)
-- 🐦 X: [@princejr_dev](https://x.com/princejr_dev)
-- 🐙 GitHub: [github.com/princejr-dev](https://github.com/princejr-dev)
 
 ---
 
