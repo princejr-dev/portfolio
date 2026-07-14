@@ -1087,50 +1087,6 @@ a.submit-btn2:hover i {
   margin-top: 16px;
 }
 
-/* ===== PAGE LOADER ===== */
-.loader {
-  position: fixed;
-  inset: 0;
-  background: var(--secondary-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-  transition: opacity 0.5s ease, visibility 0.5s ease;
-}
-
-.loader.hidden {
-  opacity: 0;
-  visibility: hidden;
-}
-
-.loader-ring {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px solid var(--primary-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  box-shadow: 0 0 40px rgba(16,185,129,0.1);
-  animation: pulseGlow 1.5s ease infinite;
-}
-
-.loader-ring::before {
-  content: '';
-  position: absolute;
-  inset: 8px;
-  border-radius: 50%;
-  border: 0.5px dashed rgba(16,185,129,0.4);
-  animation: spin 2s linear infinite;
-}
-
-@keyframes pulseGlow {
-  0%, 100% { box-shadow: 0 0 20px rgba(16,185,129,0.2); }
-  50% { box-shadow: 0 0 50px rgba(16,185,129,0.5); }
-}
-
 /* ===== PROGRESS BAR ===== */
 .progress-bar {
   position: fixed;

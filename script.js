@@ -183,15 +183,6 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// ===== PAGE LOADER =====
-const loader = document.getElementById('loader');
-
-window.addEventListener('load', () => {
-  setTimeout(() => {
-    loader.classList.add('hidden');
-  }, 1200);
-});
-
 // ===== SCROLL PROGRESS BAR =====
 const progressBar = document.getElementById('progressBar');
 
