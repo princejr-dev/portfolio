@@ -4,7 +4,7 @@ slug: "migration-firebase-services-layer"
 date: "2026-07-15"
 excerpt: "Retour d'expérience sur la migration d'une application React utilisant Firebase vers une architecture avec une couche."
 category: "Développement"
-cover: "assets/blog/x-card.png"
+cover: "assets/blog/ximage.png"
 ---
 
 # Pourquoi j'ai ajouté une couche services dans mon application React avec Firebase
