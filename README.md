@@ -1,104 +1,82 @@
-# 🌐 PJr — Personal Portfolio
+# 🚀 PJr — Portfolio / Prince Jr
 
-A responsive, mobile-first personal portfolio built with pure HTML, CSS and JavaScript. Designed with a dark theme, smooth animations, and a clean professional aesthetic.
-
----
-
-## ✨ Features
-
-- 📱 Mobile-first & fully responsive design
-- 🌙 Dark mode aesthetic with green accent
-- 🎨 Smooth scroll reveal animations
-- 📋 Bottom sheet navigation with swipe to close (mobile)
-- 🖱️ Custom cursor with follower effect (desktop)
-- 🔝 Scroll to top button (centered)
-- 📬 Contact form with response time indicator
-- 🗂️ Separate projects page with category filter
-- 🔍 SEO optimized — meta description & Open Graph tags
-- 🐦 Twitter/X Card support for social sharing
-- 🔖 Custom favicon for all devices
-- 🚫 Custom 404 error page
-- ⚡ Pure HTML, CSS & JS — no frameworks
+Je suis **Prince Jr** — développeur front‑end basé au Cameroun. Je conçois des interfaces modernes, accessibles et pensées pour l'utilisateur. Ce portfolio présente mon travail, mon CV interactif et plusieurs projets réalisés avec HTML, CSS et JavaScript (avec expérience en React, TypeScript et Next.js).
 
 ---
 
-## 🛠️ Built With
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+<!-- Badges -->
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-000000.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Site-Vercel-00C7B7.svg)](https://princejr.vercel.app/portfolio/)
 
 ---
 
-## 📁 Project Structure
+## ✨ Accroche
+Design mobile-first, animations soignées et interactions fines : navigation bottom-sheet, curseur personnalisé et optimisations SEO. Parcours le site pour voir mon CV, mes compétences et mes projets.
 
+---
+
+## 🔥 Projets phares
+- **SmartBay** — SaaS de gestion locative (React, Vite, Tailwind, Firebase)  
+  Code : https://github.com/princejr-dev/smartbay · Démo : https://getsmartbay.vercel.app
+- **Pointex** — Jeu stratégique (React, Next.js, Tailwind)  
+  Code : https://github.com/princejr-dev/pointex · Démo : https://pointex-gamma.vercel.app/
+- **OnGRAN** — App mobile pour suivi de chantiers (React Native, Expo, Firebase)  
+  Code : https://github.com/princejr-dev/ongran · Démo : (à venir)
+
+Voir tous les projets : `projects.html`
+
+---
+
+## 🧰 Stack & Outils
+- Langages : HTML5, CSS3, JavaScript
+- Frameworks / runtime : React, Next.js, Vite
+- Outils & services : Tailwind CSS, Firebase, Expo, Vercel, Git/GitHub
+
+---
+
+## 📁 Structure principale
 ```
 portfolio/
-├── index.html            # Main page
-├── cv.html               # View my cv
-├── projects.html         # All projects page
-├── 404.html              # Custom error page
-├── style.css             # All index/404 styles & animations
-├── cv.css                # All cv styles
-├── projects.css          # All projects styles
-├── script.js             # Main interactivity & logic
-├── cv.js                 # Aside toggle & custom cursor
-├── projects.js           # Projects filter logic
-├── sitemap.xml           # Indexation
-└── assets/
-    ├── favicon.ico           # Favicon
-    ├── favicon-16x16.png
-    ├── favicon-32x32.png
-    ├── apple-icon-*.png      # Apple touch icons
-    ├── android-icon-*.png    # Android icons
-    ├── ms-icon-144x144.png   # Icon
-    ├── photo.png             # Profile photo
-    └── cv.pdf                # Downloadable CV
+├── index.html        # Page d'accueil : Hero, About, Skills, Projects preview, Contact
+├── cv.html           # CV interactif + téléchargement (assets/cv.pdf)
+├── projects.html     # Page projets complète
+├── 404.html          # Erreur personnalisée
+├── style.css         # Styles globaux
+├── projects.css      # Styles page projets
+├── cv.css            # Styles CV
+├── script.js         # Interactions globales (curseur, modal, scroll reveal...)
+├── projects.js       # Filtre des projets
+├── cv.js             # Logique CV (toggle aside, téléchargement)
+└── assets/           # Images, favicon, cv.pdf, etc.
 ```
 
 ---
 
-## 📄 Pages
-
-| Page | Description |
-|------|-------------|
-| `index.html` | Hero, About, Skills, Projects preview, Contact |
-| `cv.html` | View my CV |
-| `projects.html` | All projects with category filter (All / Web / Data / Python) |
-| `404.html` | Custom error page with navigation back to home |
-
----
-
-## 🚀 Getting Started
-
-1. Clone the repository:
+## 🧭 Démarrage rapide
+1. Clone le dépôt :
 ```bash
 git clone https://github.com/princejr-dev/portfolio.git
 ```
-
-2. Open `index.html` in your browser — no build tools needed.
-
----
-
-## 🔗 Live Demo
-
-👉 Live Demo — *Coming Soon*
+2. Ouvre `index.html` dans ton navigateur — site statique, pas de build nécessaire.
 
 ---
 
 ## 📬 Contact
+- Email : princejr.dev@gmail.com
+- LinkedIn : https://www.linkedin.com/in/prince-jr
+- X (Twitter) : https://x.com/princejr_dev
+- GitHub : https://github.com/princejr-dev
 
-- 📧 Email: [princejr.dev@gmail.com](mailto:princejr.dev@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/prince-jr](https://www.linkedin.com/in/prince-jr)
-- 🐦 X: [@princejr_dev](https://x.com/princejr_dev)
-- 🐙 GitHub: [github.com/princejr-dev](https://github.com/princejr-dev)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+Je réponds généralement sous 24 heures — ouvert aux collaborations front‑end, missions freelance et opportunités produit.
 
 ---
 
-> *"Turning ideas into interfaces & data into decisions."* — PJr
+## 📄 Licence
+Ce projet est sous licence MIT — voir le fichier `LICENSE`.
+
+---
+
+> "Build to help people." — Prince Jr
