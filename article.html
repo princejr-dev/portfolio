@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="articleTitleTag">PJr — Articles</title>
+
+  <!-- FAVICON -->
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
+<link rel="favicon" type="image/x-icon" sizes="48x48" href="assets/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="192x192" href="assets/android-chrome-192x192.png" />
+<link rel="apple-touch-icon" sizes="512x512" href="assets/android-chrome-512x512.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#0F172A" />
+
+<!-- SEO ESSENTIALS -->
+<meta name="description" content="PJr — Read articles of my learning journey." />
+<meta name="keywords" content="website, web developer, tailwindcss, Front-end Developer, freelance, web designer, css, javascript" />
+<meta name="author" content="Prince Jr" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://princejr.vercel.app/article.html" />
+
+<!-- ═══ TWITTER CARD ═══ -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="PJr — Articles" />
+<meta name="twitter:description" content="Front-end Developer." />
+<meta name="twitter:image" content="https://princejr.vercel.app/assets/ximage.png" />
+<meta name="twitter:creator" content="Prince Jr" />
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Marked.js — convertit le Markdown en HTML côté client, aucune dépendance serveur -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js"></script>
+</head>
+<body>
+
+  <!-- Overlay -->
+  <div id="overlay" class="overlay"></div>
+
+  <!-- SCROLL TO TOP -->
+  <button id="scrollTop" class="scroll-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ===== HEADER ===== -->
+  <header class="hero-section">
+    <div class="header-inner">
+      <div class="initial-img-badge">
+        <div class="initial-img-ring">
+          <img src="assets/initial-img.png" alt="Initial Logo" class="initial-img">
+        </div>
+      </div>
+      <nav>
+        <a href="blog.html" class="menu-toggle" style="text-decoration:none; font-size:0.85rem; font-family:'Space Mono',monospace;">
+          <i class="fas fa-arrow-left"></i> Blog
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== ARTICLE CONTENT (généré par js/article.js) ===== -->
+  <section class="section article-section">
+    <div class="section-inner article-inner">
+      <div id="articleContent">
+        <p class="blog-loading">Loading article...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-logo">Prince Jr</p>
+      <p class="footer-copy">&copy; 2026 PJr — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="js/article.js"></script>
+</body>
+</html>

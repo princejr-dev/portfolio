@@ -1,0 +1,9 @@
+{
+  "name": "portfolio-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Générateur local pour le système de blog Markdown du portfolio.",
+  "scripts": {
+    "generate:blog": "node scripts/generate-blog.js"
+  }
+}
