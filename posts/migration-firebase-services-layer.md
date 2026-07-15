@@ -1,13 +1,13 @@
 ---
 title: "Pourquoi j'ai ajouté une couche services dans mon application React avec Firebase"
 slug: "migration-firebase-services-layer"
-date: "2026-07-15"
+date: "2026-07-14"
 excerpt: "Retour d'expérience sur la migration d'une application React utilisant Firebase vers une architecture avec une couche."
 category: "Développement"
 cover: "assets/blog/ximage.png"
 ---
 
-# Pourquoi j'ai ajouté une couche services dans mon application React avec Firebase
+# <span class="title-bar">|<span> Situation
 
 Au début du développement de mon application, Firebase me permettait d'avancer rapidement. L'authentification, la base de données Firestore et plusieurs fonctionnalités étaient directement utilisées depuis mes composants React.
 
@@ -15,7 +15,7 @@ Cette approche fonctionnait parfaitement pour commencer. Elle m'a permis de cons
 
 Mais avec l'évolution du projet, j'ai commencé à remarquer un problème : mes composants devenaient trop dépendants de Firebase.
 
-## Le problème : une application trop liée à son outil
+## <span class="title-bar">|<span> Le problème : une application trop liée à son outil
 
 Lorsque la logique métier est directement écrite dans les composants, chaque changement devient plus difficile.
 
@@ -33,7 +33,7 @@ Je me suis alors posé une question importante :
 
 La réponse était simple : beaucoup de fichiers devraient être modifiés.
 
-## La solution : créer une couche services
+## <span class="title-bar">|<span> La solution : créer une couche services
 
 J'ai donc décidé d'introduire une nouvelle organisation avec un dossier `services/`.
 
@@ -61,7 +61,7 @@ getUsers();
 
 La logique Firebase est maintenant isolée dans un fichier dédié.
 
-## Les avantages obtenus
+## <span class="title-bar">|<span> Les avantages obtenus
 
 Cette nouvelle architecture apporte plusieurs bénéfices :
 
@@ -72,7 +72,7 @@ Des services réutilisables dans plusieurs parties de l'application.
 
 Firebase reste toujours utilisé, mais l'application n'est plus entièrement dépendante de lui.
 
-## Ce que j'ai appris pendant cette migration
+## <span class="title-bar">|<span> Ce que j'ai appris pendant cette migration
 
 Cette expérience m'a appris qu'une application peut fonctionner parfaitement tout en ayant besoin d'améliorations architecturales.
 
@@ -80,8 +80,8 @@ Au début, mon objectif était simplement de créer une fonctionnalité qui fonc
 
 Les outils comme Firebase permettent de construire rapidement, mais il est important de garder une structure qui laisse des portes ouvertes pour le futur.
 
-## Conclusion
+## <span class="title-bar">|<span> Conclusion
 
 Cette migration vers une couche services n'a pas changé l'apparence de mon application pour les utilisateurs, mais elle a amélioré sa base technique.
 
-C'est une étape importante dans mon évolution en tant que développeur : apprendre non seulement à créer des fonctionnalités, mais aussi à construire des applications capables de grandir.
+> C'est une étape importante dans mon évolution en tant que développeur : apprendre non seulement à créer des fonctionnalités, mais aussi à construire des applications capables de grandir.

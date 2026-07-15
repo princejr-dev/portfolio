@@ -46,7 +46,6 @@ async function loadArticle() {
       <div class="article-tag">${post.category}</div>
       <h1 class="article-title">${post.title}</h1>
       <p class="article-date">${formatDate(post.date)}</p>
-      ${post.cover ? `<img src="${post.cover}" alt="${post.title}" class="article-cover">` : ''}
       <div class="article-body">${htmlContent}</div>
       <a href="blog.html" class="btn-secondary article-back">
         <i class="fas fa-arrow-left"></i> Back to Blog

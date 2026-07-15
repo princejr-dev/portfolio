@@ -1,8 +1,26 @@
 [
   {
+    "title": "Ce que Git m'a appris après avoir supprimé un dossier important",
+    "slug": "ce-que-git-ma-appris-apres-avoir-supprime-un-dossier-important",
+    "date": "2026-07-15",
+    "excerpt": "J'ai supprimé par erreur plusieurs heures de travail. Ce moment de panique m'a rappelé pourquoi Git n'est pas seulement un outil pour collaborer, mais aussi un véritable filet de sécurité.",
+    "category": "Git",
+    "cover": "assets/blog/ximage.png",
+    "file": "ce-que-git-ma-appris-apres-avoir-supprime-un-dossier-important.md"
+  },
+  {
+    "title": "Construire des produits tech : mon parcours entre idées, apprentissage et réalité",
+    "slug": "mon-parcours-dans-la-creation-de-produits-tech",
+    "date": "2026-07-15",
+    "excerpt": "Mon parcours de développeur autodidacte, mes réflexions sur la création de produits tech et les leçons apprises en construisant mes premiers projets.",
+    "category": "Parcours",
+    "cover": "assets/blog/ximage.png",
+    "file": "mon-parcours-dans-la-creation-de-produits-tech.md"
+  },
+  {
     "title": "Pourquoi j'ai ajouté une couche services dans mon application React avec Firebase",
     "slug": "migration-firebase-services-layer",
-    "date": "2026-07-15",
+    "date": "2026-07-14",
     "excerpt": "Retour d'expérience sur la migration d'une application React utilisant Firebase vers une architecture avec une couche.",
     "category": "Développement",
     "cover": "assets/blog/ximage.png",

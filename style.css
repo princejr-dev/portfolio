@@ -1216,6 +1216,12 @@ a.submit-btn2:hover i {
   font-size: 1rem;
   line-height: 1.9;
 }
+.title-bar {
+  color: var(--primary-color);
+  font-weight: 800;
+  margin-right: 10ox;
+  display: inline-block;
+}
 .article-body h1,
 .article-body h2,
 .article-body h3 {
