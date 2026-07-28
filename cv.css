@@ -486,58 +486,69 @@ body {
   color: var(--primary-color);
 }
 
-/* ===== SKILLS ===== */
-.cv-skills-grid {
+/* ===== STACK GRID ===== */
+.stack-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
 }
 
-.cv-skill-group {
-  background: var(--surface2);
+.stack-card {
+  background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 18px;
-  transition: border-color 0.3s ease;
-}
-.cv-skill-group:hover { border-color: rgba(16,185,129,0.3); }
-
-.cv-skill-label {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: var(--text-color);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 12px;
-}
-
-.cv-skill-tags {
+  border-radius: 16px;
+  padding: 20px 12px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-.cv-tag {
+.stack-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(16,185,129,0.3);
+}
+
+.stack-card i {
+  font-size: 2.2rem;
+}
+
+.stack-card span {
   font-family: var(--font-mono);
   font-size: 0.72rem;
   font-weight: 700;
-  padding: 5px 12px;
-  border-radius: 20px;
-}
-.cv-tag.solid {
-  background: rgba(16,185,129,0.12);
-  color: var(--primary-color);
-  border: 1px solid rgba(16,185,129,0.3);
-}
-.cv-tag.outline {
-  background: transparent;
   color: var(--muted);
-  border: 1px solid var(--border);
+  text-align: center;
 }
-.cv-tag.learning {
-  background: rgba(251,191,36,0.08);
+
+/* Badge discret pour les skills en apprentissage */
+.stack-card.learning {
+  position: relative;
+  border-color: rgba(251,191,36,0.25);
+}
+.stack-card.learning::after {
+  content: 'Learning';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 20px;
+  background: rgba(251,191,36,0.15);
   color: #fbbf24;
-  border: 1px solid rgba(251,191,36,0.25);
+  border: 1px solid rgba(251,191,36,0.3);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .stack-grid { grid-template-columns: repeat(4, 1fr); }
+}
+@media (max-width: 640px) {
+  .stack-grid { grid-template-columns: repeat(3, 1fr); }
+  .stack-card i { font-size: 1.8rem; }
 }
 
 /* ===== ANIMATIONS ===== */
@@ -585,10 +596,6 @@ body {
   .cv-main {
     padding: 20px 38px;
     width: 100%;
-  }
-
-  .cv-skills-grid {
-    grid-template-columns: 1fr;
   }
 
   .cv-item-header {

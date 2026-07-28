@@ -4,25 +4,17 @@
   <!-- Main page -->
   <url>
     <loc>https://princejr.vercel.app/portfolio/</loc>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-  </url>
-
-  <!-- Projects page -->
-  <url>
-    <loc>https://princejr.vercel.app/portfolio/projects.html</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <!-- Cv page -->
   <url>
     <loc>https://princejr.vercel.app/portfolio/cv.html</loc>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
