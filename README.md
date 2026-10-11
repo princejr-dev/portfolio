@@ -20,7 +20,7 @@ Design mobile-first, animations soignées et interactions fines : navigation bot
 
 ## 🔥 Projets phares
 - **SmartBay** — SaaS de gestion locative (React, Vite, Tailwind, Firebase)  
-  Code : https://github.com/princejr-dev/smartbay · Démo : https://getsmartbay.vercel.app
+  Code : https://github.com/princejr-dev/smartbay · Démo : https://getsmartbay.com
 - **Pointex** — Jeu stratégique (React, Next.js, Tailwind)  
   Code : https://github.com/princejr-dev/pointex · Démo : https://pointex-gamma.vercel.app/
 - **OnGRAN** — App mobile pour suivi de chantiers (React Native, Expo, Firebase)  
