@@ -5,6 +5,7 @@ Je suis **Prince Jr** — développeur front‑end basé au Cameroun. Je conçoi
 ---
 
 <!-- Badges -->
+
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
@@ -14,11 +15,13 @@ Je suis **Prince Jr** — développeur front‑end basé au Cameroun. Je conçoi
 ---
 
 ## ✨ Accroche
+
 Design mobile-first, animations soignées et interactions fines : navigation bottom-sheet, curseur personnalisé et optimisations SEO. Parcours le site pour voir mon CV, mes compétences et mes projets.
 
 ---
 
 ## 🔥 Projets phares
+
 - **SmartBay** — SaaS de gestion locative (React, Vite, Tailwind, Firebase)  
   Code : https://github.com/princejr-dev/smartbay · Démo : https://getsmartbay.com
 - **Pointex** — Jeu stratégique (React, Next.js, Tailwind)  
@@ -31,6 +34,7 @@ Voir tous les projets : `projects.html`
 ---
 
 ## 🧰 Stack & Outils
+
 - Langages : HTML5, CSS3, JavaScript
 - Frameworks / runtime : React, Next.js, Vite
 - Outils & services : Tailwind CSS, Firebase, Expo, Vercel, Git/GitHub
@@ -38,6 +42,7 @@ Voir tous les projets : `projects.html`
 ---
 
 ## 📁 Structure principale
+
 ```
 portfolio/
 ├── index.html        # Page d'accueil : Hero, About, Skills, Projects preview, Contact
@@ -56,15 +61,19 @@ portfolio/
 ---
 
 ## 🧭 Démarrage rapide
+
 1. Clone le dépôt :
+
 ```bash
 git clone https://github.com/princejr-dev/portfolio.git
 ```
+
 2. Ouvre `index.html` dans ton navigateur — site statique, pas de build nécessaire.
 
 ---
 
 ## 📬 Contact
+
 - Email : princejr.dev@gmail.com
 - LinkedIn : https://www.linkedin.com/in/prince-jr
 - X (Twitter) : https://x.com/princejr_dev
@@ -75,6 +84,7 @@ Je réponds généralement sous 24 heures — ouvert aux collaborations front‑
 ---
 
 ## 📄 Licence
+
 Ce projet est sous licence MIT — voir le fichier `LICENSE`.
 
 ---

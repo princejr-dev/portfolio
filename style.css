@@ -610,6 +610,7 @@ a.submit-btn2:hover i {
   font-size: 1rem;
 }
 .about-text strong { color: var(--primary-color); font-weight: 600; }
+.section-sub strong { color: var(--primary-color); font-weight: 600; }
 
 .about-info {
   display: flex;

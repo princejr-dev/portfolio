@@ -35,13 +35,13 @@ Puis un jour, en faisant évoluer l'un de mes projets, j'ai compris qu'une appli
 
 ### SmartBay : résoudre un problème réel avec la technologie
 
-[SmartBay](https://getsmartbay.vercel.app) est mon premier véritable produit pensé comme une solution.
+[SmartBay](https://getsmartbay.com) est mon premier véritable produit pensé comme une solution.
 
 L'objectif était de répondre à un problème concret : aider les propriétaires immobiliers à mieux gérer leurs locataires.
 
 Ce projet m'a beaucoup appris parce qu'il m'a confronté à une réalité différente de celle des simples exercices de programmation. Créer une fonctionnalité est une chose. Créer quelque chose que d'autres personnes peuvent réellement utiliser en est une autre.
 
-Avec [SmartBay](https://getsmartbay.vercel.app), j'ai découvert plusieurs aspects importants :
+Avec [SmartBay](https://getsmartbay.com), j'ai découvert plusieurs aspects importants :
 
 - penser à l'expérience utilisateur ;
 - organiser un projet qui évolue ;

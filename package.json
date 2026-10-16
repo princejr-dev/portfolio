@@ -1,8 +1,8 @@
 {
-  "name": "portfolio-blog",
+  "name": "Prince Jr • Product Builder",
   "version": "1.0.0",
   "private": true,
-  "description": "Générateur local pour le système de blog Markdown du portfolio.",
+  "description": "Front-end Developer & Product Builder.",
   "scripts": {
     "generate:blog": "node scripts/generate-blog.js"
   }
