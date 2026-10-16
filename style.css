@@ -748,7 +748,7 @@ a.submit-btn2:hover i {
 }
 
 /* ===== PROJECTS ===== */
-.projects-section { background: var(--surface2); }
+.projects-section { background: var(--surface); }
 
 .projects-grid {
   display: grid;
@@ -810,6 +810,45 @@ a.submit-btn2:hover i {
 }
 
 .project-links { display: flex; gap: 10px; flex-wrap: wrap; }
+
+/* ===== SKILLS SUBHEADINGS ===== */
+.skills-subheading {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 40px 0 16px;
+}
+.skills-subheading:first-of-type { margin-top: 0; }
+
+/* ===== FOUNDER ===== */
+.founder-section { background: var(--surface2); }
+
+.founder-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.founder-text p {
+  color: var(--muted);
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+.founder-text strong { color: var(--primary-color); }
+
+.founder-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .founder-grid { grid-template-columns: 1fr; gap: 32px; }
+}
 
 .link-btn {
   display: inline-flex;
